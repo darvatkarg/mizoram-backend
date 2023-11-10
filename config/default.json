@@ -1,0 +1,36 @@
+{
+  "old_db_url": "mongodb+srv://node:XhrBdaTUJSfNoyEY@readitout.rejgp.mongodb.net/Katon",
+  "db_url": "mongodb://mukund:liberator@103.86.177.17/readitout",
+  "jwt_token_secret": "seCr3t-U1-VIll^&@-enc-kEY",
+  "refresh_jwt_token_secret": "R|-Fre_|-HSP:?-seCr3t-U1-VIll^&@-enc-kEY",
+  "Winston": {
+    "level": "debug"
+  },
+  "nodeMail": {
+    "mail": "hardyhmar17@gmail.com",
+    "password": "iuoqluxekjqbaakh"
+  },
+  "timeZone": "Asia/Calcutta",
+  "aws": {
+    "accessKeyId": "AKIAYXSOV3RCBKP54U3M",
+    "secretAccessKey": "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",
+    "region": "eu-central-1",
+    "bucket_name": "readitout-storage",
+    "bucket_URL": "https://readitout-storage.s3.eu-central-1.amazonaws.com/"
+  },
+  "SMS": {
+    "URL": "https://6j63ez.api.infobip.com/sms/2/text/advanced",
+    "smsSender": "Aizawl",
+    "apiKey": "55337b71a9b11866f9df55eb6fa8b535-edb780b6-b89c-4a9d-8f4e-330dee217495"
+  },
+  "SMS_v1": {
+    "URL": "https://smsapi.interpayafrica.com/Api/SendSMS",
+    "smsSender": "Aizawl",
+    "userName": "PANAFADMIN",
+    "appKey": "hU3tg59^rebdVFAl"
+  },
+  "certificate": {
+    "withPartner": "https://readitout-storage.s3.eu-central-1.amazonaws.com/certificate1.png",
+    "withoutPartner": "https://readitout-storage.s3.eu-central-1.amazonaws.com/without_partner_certificate_1.png"
+  }
+}

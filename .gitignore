@@ -1,0 +1,11 @@
+node_modules
+upload
+build
+multer_uploads
+package-lock.json
+*.zip
+deploy.bat
+ebs.bat
+test.json
+test.js
+index.html
