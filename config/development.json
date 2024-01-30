@@ -1,5 +1,6 @@
 {
-  "db_url": "mongodb://mukund:liberator@103.86.177.17/readitout",
+  "db_url": "mongodb+srv://elibrarysmartcity:FzQlr7dMcGSZS0xQ@cluster0.hr9g0wv.mongodb.net/readitout",
+  "db_local": "mongodb://localhost:27017/",
   "jwt_token_secret": "seCr3t-U1-VIll^&@-enc-kEY",
   "refresh_jwt_token_secret": "R|-Fre_|-HSP:?-seCr3t-U1-VIll^&@-enc-kEY",
   "Winston": {
