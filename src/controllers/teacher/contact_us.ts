@@ -9,7 +9,7 @@ const ObjectId = require('mongoose').Types.ObjectId
 
 export const add_contact_us = async (req: Request, res: Response) => {
     reqInfo(req)
-    req.body.createdBy = (req.header('user') as any)?._id
+    // req.body.createdBy = (req.header('user') as any)?._id
     try {
         let response = await new contactUsModel(req.body).save()
         await contact_us_mail(req.body)

@@ -7,7 +7,7 @@ const contactUsSchema = new mongoose.Schema({
     message: { type: String, default: null },
     isResponded: { type: Boolean, default: false },
     responseMessage: { type: [{ type: String }], default: null },
-    createdBy: { type: mongoose.Schema.Types.ObjectId, ref: "userModel" },
+    // createdBy: { type: mongoose.Schema.Types.ObjectId, ref: "userModel" },
 }, { timestamps: true })
 
 export const contactUsModel = mongoose.model('contact_us', contactUsSchema)

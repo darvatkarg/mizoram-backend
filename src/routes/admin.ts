@@ -65,6 +65,10 @@ router.post(
 router.get("/get_region_update", adminController.get_region_test);
 router.get("/subscription", adminController.getSubscription);
 
+//ContactUs Route
+router.get("/contact_us", adminController.get_contactUs);
+router.delete("/contact_us/:id", adminController.delete_contactUs);
+
 //  ------   Authentication ------
 router.use(userJWT);
 
