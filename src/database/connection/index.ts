@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import express from "express";
 const mongooseConnection = express();
 const dbUrl: any = config.get("db_url");
+// const dbUrl: any = config.get("db_local");
 console.log(dbUrl);
 
 mongoose
