@@ -3,7 +3,7 @@ upload
 build
 multer_uploads
 package-lock.json
-*.zip
+# *.zip
 deploy.bat
 ebs.bat
 test.json
